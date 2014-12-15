@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dRZ-X6-DM6">
+                    <rect key="frame" x="221" y="196" width="159" height="208"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EMC-uz-8N5">
+                            <rect key="frame" x="28" y="164" width="102" height="44"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                            <state key="normal" title="Try again">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="😩" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8K9-iH-Rct">
+                            <rect key="frame" x="39" y="0.0" width="80" height="96"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="80"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You lose!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dab-MU-ZkG">
+                            <rect key="frame" x="0.0" y="96" width="158" height="48"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="EMC-uz-8N5" secondAttribute="trailing" id="7z6-Wl-K6w"/>
+                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Dab-MU-ZkG" secondAttribute="trailing" id="9bl-cb-5yA"/>
+                        <constraint firstAttribute="centerX" secondItem="8K9-iH-Rct" secondAttribute="centerX" id="B5c-uL-dpj"/>
+                        <constraint firstAttribute="centerX" secondItem="EMC-uz-8N5" secondAttribute="centerX" id="BvU-Yu-ZYx"/>
+                        <constraint firstItem="Dab-MU-ZkG" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="dRZ-X6-DM6" secondAttribute="leading" id="GdT-Pf-bfz"/>
+                        <constraint firstItem="Dab-MU-ZkG" firstAttribute="top" secondItem="8K9-iH-Rct" secondAttribute="bottom" id="Pjc-0X-Igb"/>
+                        <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="EMC-uz-8N5" secondAttribute="trailing" priority="250" id="VPS-5T-OlS"/>
+                        <constraint firstItem="8K9-iH-Rct" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="dRZ-X6-DM6" secondAttribute="leading" id="Z8f-cy-nly"/>
+                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="8K9-iH-Rct" secondAttribute="trailing" id="fwf-b4-5mI"/>
+                        <constraint firstItem="EMC-uz-8N5" firstAttribute="top" secondItem="Dab-MU-ZkG" secondAttribute="bottom" constant="20" id="gdE-q6-fRH"/>
+                        <constraint firstItem="8K9-iH-Rct" firstAttribute="top" secondItem="dRZ-X6-DM6" secondAttribute="top" id="gkF-Uq-avI"/>
+                        <constraint firstAttribute="centerX" secondItem="Dab-MU-ZkG" secondAttribute="centerX" id="j14-Xf-Ym8"/>
+                        <constraint firstAttribute="bottom" secondItem="EMC-uz-8N5" secondAttribute="bottom" id="mGV-4K-guf"/>
+                        <constraint firstItem="EMC-uz-8N5" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="dRZ-X6-DM6" secondAttribute="leading" id="ymN-UI-fDj"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.40000000596046448" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="dRZ-X6-DM6" secondAttribute="bottom" id="1xr-G5-sVj"/>
+                <constraint firstItem="dRZ-X6-DM6" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="leading" id="RGg-n0-r82"/>
+                <constraint firstItem="dRZ-X6-DM6" firstAttribute="top" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="top" id="RgN-m3-wSk"/>
+                <constraint firstAttribute="centerX" secondItem="dRZ-X6-DM6" secondAttribute="centerX" id="bi8-u6-goa"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="dRZ-X6-DM6" secondAttribute="trailing" id="pUd-PJ-bd0"/>
+                <constraint firstAttribute="centerY" secondItem="dRZ-X6-DM6" secondAttribute="centerY" id="xe9-c8-bBK"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+        </view>
+    </objects>
+</document>

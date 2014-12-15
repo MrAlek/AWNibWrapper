@@ -1,0 +1,14 @@
+PODS:
+  - AWNibWrapper (0.1.0)
+
+DEPENDENCIES:
+  - AWNibWrapper (from `../`)
+
+EXTERNAL SOURCES:
+  AWNibWrapper:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AWNibWrapper: cff5105b95ab85fe7540b28e934643669ebed317
+
+COCOAPODS: 0.34.4

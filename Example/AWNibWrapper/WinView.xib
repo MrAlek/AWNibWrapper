@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14B17" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="332" height="290"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ixh-Gb-7dL">
+                    <rect key="frame" x="104" y="71" width="125" height="148"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Highscore: 666" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g2e-7n-eAK">
+                            <rect key="frame" x="5" y="127" width="116" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: 123" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gy-dJ-xg1">
+                            <rect key="frame" x="21" y="86" width="83" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You win!!!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WEK-hV-Nba">
+                            <rect key="frame" x="0.0" y="0.0" width="125" height="36"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                            <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="centerX" secondItem="9gy-dJ-xg1" secondAttribute="centerX" id="9Xs-HE-bs1"/>
+                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="WEK-hV-Nba" secondAttribute="trailing" id="OPU-35-xCW"/>
+                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="g2e-7n-eAK" secondAttribute="trailing" id="Oh2-uM-P1R"/>
+                        <constraint firstItem="g2e-7n-eAK" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Ixh-Gb-7dL" secondAttribute="leading" id="QpQ-Vc-rND"/>
+                        <constraint firstItem="9gy-dJ-xg1" firstAttribute="top" secondItem="WEK-hV-Nba" secondAttribute="bottom" constant="50" id="Zcy-4o-m2x"/>
+                        <constraint firstItem="g2e-7n-eAK" firstAttribute="top" secondItem="9gy-dJ-xg1" secondAttribute="bottom" constant="20" id="cFU-3Q-tMb"/>
+                        <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="WEK-hV-Nba" secondAttribute="trailing" priority="250" id="eiW-ON-Cex"/>
+                        <constraint firstItem="WEK-hV-Nba" firstAttribute="top" secondItem="Ixh-Gb-7dL" secondAttribute="top" id="gMT-bq-NzW"/>
+                        <constraint firstAttribute="bottom" secondItem="g2e-7n-eAK" secondAttribute="bottom" id="gOE-gy-57q"/>
+                        <constraint firstItem="WEK-hV-Nba" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Ixh-Gb-7dL" secondAttribute="leading" id="jVx-dD-Sc5"/>
+                        <constraint firstAttribute="centerX" secondItem="g2e-7n-eAK" secondAttribute="centerX" id="kDe-um-27F"/>
+                        <constraint firstAttribute="centerX" secondItem="WEK-hV-Nba" secondAttribute="centerX" id="qtz-7D-aQK"/>
+                        <constraint firstItem="9gy-dJ-xg1" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Ixh-Gb-7dL" secondAttribute="leading" id="tl2-vH-l37"/>
+                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="9gy-dJ-xg1" secondAttribute="trailing" id="xAX-3R-HkE"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.80000001192092896" green="1" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Ixh-Gb-7dL" secondAttribute="bottom" id="2HX-Nx-Tv4"/>
+                <constraint firstAttribute="centerY" secondItem="Ixh-Gb-7dL" secondAttribute="centerY" id="DrI-Ld-aAY"/>
+                <constraint firstItem="Ixh-Gb-7dL" firstAttribute="top" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="top" id="V6G-ak-tyj"/>
+                <constraint firstAttribute="centerX" secondItem="Ixh-Gb-7dL" secondAttribute="centerX" id="vxZ-WX-yAZ"/>
+                <constraint firstItem="Ixh-Gb-7dL" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="leading" id="w62-4w-6mr"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Ixh-Gb-7dL" secondAttribute="trailing" id="ylB-DV-YME"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="258" y="256"/>
+        </view>
+    </objects>
+</document>
